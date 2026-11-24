@@ -1,0 +1,26 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Graph Making Tool</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Graph Making Tool</h1>
+
+<input id="fn" placeholder="Enter function: x*x, sin(x)">
+<button onclick="plot()">Plot</button>
+<button onclick="zoom(1.2)">Zoom +</button>
+<button onclick="zoom(0.8)">Zoom -</button>
+<button onclick="roots()">Find Roots</button>
+<button onclick="save()">Save PNG</button>
+<button onclick="clearGraph()">Clear</button>
+
+<p id="result"></p>
+<canvas id="graph" width="850" height="500"></canvas>
+<ul id="list"></ul>
+
+<script src="script.js"></script>
+</body>
+</html>
